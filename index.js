@@ -6,6 +6,14 @@ function nestedTarget() {
   return document.querySelector('#nested .target')
 }
 
+function increaseRankBy(n) {
+  const rankedLists = document.querySelectorAll('.ranked-list')
+  for (let i = 0, a = rankedLists.length; i<a; i++) {
+    let children = rankedLists[i].children
+    for (let b = 0, c = children.length; b<c; b++){
+  }
+}
+
 function deepestChild() {
   let node = document.getElementById ('grand-node')
   let nextNode = node.children[0]
